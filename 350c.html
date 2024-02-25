@@ -6,6 +6,16 @@
   <title>Temperature and Power Chart</title>
   <!-- Include Chart.js library -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      text-align: center;
+    }
+
+    p {
+      display: inline-block;
+      text-align: left;
+    }
+  </style>
 </head>
 <body>
   <div style="width: 80%; margin: auto;">
@@ -78,7 +88,7 @@ var hotAir3Power = [0, 2.6875, 5.375, 45.6875, 208.6978, 579.339, 1013.188, 1112
         plugins: {
             title: {
                 display: true,
-                text: '350°C at full air flow'
+                text: '350°C pełen nadmuch'
             }
         },
         scales: {
@@ -110,5 +120,8 @@ var hotAir3Power = [0, 2.6875, 5.375, 45.6875, 208.6978, 579.339, 1013.188, 1112
       },
     });
   </script>
+  <p>Quick został nam podarowany w celu testów przez Katemedia - można go zakupić <a href="https://katemedia.pl/pl/strona-glowna/130-stacja-lutownicza-quick-861dw-lutownica-cyfrowa-861-dw.html">tutaj</a>.</p>
+<p>JCD był testowany już wcześniej w tym <a href="https://www.elektroda.pl/rtvforum/topic3970314.html">temacie</a>.</p>
+
 </body>
 </html>
